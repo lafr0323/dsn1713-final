@@ -3,11 +3,34 @@
 $primary:       Black;
 $secondary:     White;
 $success:       #ebebeb;
-$info:          #cbcbcb;
+$info:          #f5f5f5;
 $warning:       #A60505;
 $light:         White;
 $dark:          Black;
 
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.subscribe-btn {
+    color: white;
+    background-color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border: none;
+    border-radius: 0.5em;
+
+}
+
+// Need to add in primary button atributes
+
+.fashion {
+    background-color: #f5f5f5;
+    color: black;
+}
+
+.contact {
+    background-color: #f5f5f5;
+    color: black;
+}
