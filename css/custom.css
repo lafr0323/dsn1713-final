@@ -11866,4 +11866,9 @@ textarea.form-control-lg {
   color: black;
 }
 
+.navbar-toggler {
+  border: none;
+  border-style: none;
+}
+
 /*# sourceMappingURL=custom.css.map */
