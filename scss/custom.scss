@@ -19,7 +19,6 @@ $dark:          Black;
     padding-right: 1.5em;
     border: none;
     border-radius: 0.5em;
-
 }
 
 // Need to add in primary button atributes
@@ -29,6 +28,14 @@ $dark:          Black;
     color: black;
 }
 
+.about {
+    background-image: url(../images/girl-laying-pink-banner.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+    height: 450px;
+}
 
 .contact {
     background-color: #f5f5f5;
