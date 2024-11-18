@@ -11845,7 +11845,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.subscribe-btn {
+.primary-btn {
   color: white;
   background-color: black;
   padding-top: 0.5em;
@@ -11869,6 +11869,10 @@ textarea.form-control-lg {
 .navbar-toggler {
   border: none;
   border-style: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #A60505;
 }
 
 /*# sourceMappingURL=custom.css.map */
