@@ -11870,6 +11870,18 @@ textarea.form-control-lg {
   height: 450px;
 }
 
+.about-img-section {
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  position: relative;
+  height: 450px;
+}
+
+.about-write-up {
+  background-color: #f5f5f5;
+}
+
 .contact {
   background-color: #f5f5f5;
   color: black;
