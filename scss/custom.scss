@@ -8,7 +8,12 @@ $warning:       #A60505;
 $light:         White;
 $dark:          Black;
 
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+// :root {
+//    Add root even though with the items above?
+// }
 
 .primary-btn {
     color: white;
