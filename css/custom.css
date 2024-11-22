@@ -11883,6 +11883,7 @@ textarea.form-control-lg {
   position: absolute;
   bottom: 10px;
   right: 10px;
+  color: #f5f5f5;
 }
 
 .about-write-up {
@@ -11892,6 +11893,14 @@ textarea.form-control-lg {
 .contact {
   background-color: #f5f5f5;
   color: black;
+}
+
+.contacts {
+  background-color: #f5f5f5;
+}
+
+.bottom-c-text {
+  background-color: #f5f5f5;
 }
 
 .navbar-toggler {
