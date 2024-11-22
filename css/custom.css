@@ -11871,11 +11871,18 @@ textarea.form-control-lg {
 }
 
 .about-img-section {
+  background-image: url(../images/girl-laying-pink-banner.jpg);
   background-position: center;
   background-repeat: none;
   background-size: cover;
   position: relative;
   height: 450px;
+}
+
+.banner-text {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .about-write-up {
