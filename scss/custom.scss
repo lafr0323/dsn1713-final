@@ -28,6 +28,7 @@ $dark:          Black;
 
 // Need to add in primary button atributes
 
+
 .fashion {
     background-color: #f5f5f5;
     color: black;
@@ -87,5 +88,10 @@ $dark:          Black;
 
 .footer {
     background-color: #f5f5f5;
+}
+
+header {
+    width: 100%;
+    z-index: 10;
 }
 
