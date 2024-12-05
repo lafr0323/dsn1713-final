@@ -11856,6 +11856,13 @@ textarea.form-control-lg {
   border-radius: 0.5em;
 }
 
+.cards {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 0.5s; /* don't forget to set a duration! */
+}
+
 .fashion {
   background-color: #f5f5f5;
   color: black;
@@ -11901,6 +11908,7 @@ textarea.form-control-lg {
 .navbar-toggler {
   border: none;
   border-style: none;
+  outline: none;
 }
 
 .navbar-nav .nav-link:hover {
@@ -11914,6 +11922,24 @@ textarea.form-control-lg {
 header {
   width: 100%;
   z-index: 10;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+@media screen and (max-width: 768px) {
+  .contacts-2 {
+    padding-top: 0 !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fashion .container {
+    margin-left: -12vw;
+    margin-right: 0;
+    max-width: 120vw;
+    width: 120vw;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
